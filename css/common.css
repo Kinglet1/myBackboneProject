@@ -1,0 +1,198 @@
+.viewport {
+	position: relative;
+}
+
+.viewport_step_1 {
+	background: #03A9F4;
+}
+
+.viewport_step_1 .step-title {
+	background: #0288D1;
+}
+
+.viewport_step_1 .step-title__subtitle {
+	color: #B3E5FC;
+}
+
+.viewport_step_2 {
+	background: #FF4081
+}
+
+.viewport_step_2 .step-title {
+	background: #C2185B;
+}
+
+.viewport_step_2 .step-title__subtitle {
+	color: #FFCDD2;
+}
+
+.viewport_step_3 {
+	background: #FFC107;
+}
+
+.viewport_step_3 .step-title {
+	background: #FFA000;
+}
+
+.viewport_step_3 .step-title__subtitle {
+	color: #FFECB3;
+}
+
+.step-title {
+	color: #fff;
+	font-size: 30px;
+	line-height: 40px;
+}
+
+.content-wrapper {
+	text-align: center;
+	width: 60%;
+	height: 700px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: -350px;
+	background: #fff;
+	min-width: 750px;
+}
+
+.nav-bar {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-top: 1px solid #B6B6B6;
+	padding: 20px 0;
+}
+
+.button {
+	display: inline-block;
+	white-space: nowrap;
+	border: 2px solid #B6B6B6;
+	height: 30px;
+	line-height: 30px;
+	box-sizing: border-box;
+	padding: 0 20px;
+	text-transform: uppercase;
+	cursor: pointer;
+	color: #B6B6B6;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+}
+
+.button:hover {
+	background: #B6B6B6;
+	color: #fff;
+}
+
+.button_type_block {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.nav-bar .button {
+	min-width: 120px;
+}
+
+.text-input-wrapper {
+	padding: 40px;
+}
+
+.text-input {
+	display: block;
+	width: 100%;
+	height: 150px;
+	box-sizing: border-box;
+	border: 1px solid #b6b6b6;
+	font-size: 15px;
+}
+
+.content-row {
+	padding: 40px 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+.content-column {
+	padding: 0 10px;
+}
+
+.style-controls {
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.style-controls__header {
+	text-transform: uppercase;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+.colors-list {
+	line-height: 0;
+	font-size: 0;
+	max-width: 275px;
+}
+
+.colors-list_type_backgorund {
+	margin-bottom: 10px;
+}
+
+.colors-list__item {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #b6b6b6;
+	cursor: pointer;
+	margin: 0 5px 5px 0;
+	box-sizing: border-box;
+}
+
+.social-icons {
+	max-width: 300px;
+	text-align: left;
+	margin-bottom: 10px;
+	font-size: 0;
+	line-height: 0;
+}
+
+.social-icons__item {
+	width: 80px;
+	height: 80px;
+	cursor: pointer;
+	background-size: cover;
+	margin: 0 10px 10px 0;
+	display: inline-block;
+}
+
+.canvas-wrapper,
+.result-wrapper {
+	border: 1px solid #b6b6b6;
+	width: 500px;
+	height: 500px;
+}
+
+select {
+	font-size: 15px;
+	line-height: 30px;
+	height: 30px;
+	min-width: 100px;
+	border: 1px solid #b6b6b6;
+}
+
+input {
+	display: block;
+	width: 100%;
+	border: 1px solid #b6b6b6;
+	line-height: 30px;
+	height: 30px;
+	font-size: 15px;
+	box-sizing: border-box;
+	padding: 0 5px;
+}
+
+.selectBox {
+	background: #fff !important;
+}
